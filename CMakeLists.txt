@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   LoadMap.srv
+  SaveMap.srv
 )
 
 ## Generate actions in the 'action' folder
