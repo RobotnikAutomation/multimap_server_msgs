@@ -5,12 +5,15 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
-# add_message_files(
-#   FILES
-# )
+add_message_files(
+  FILES
+  Environment.msg
+  Environments.msg
+)
 
 add_service_files(
   FILES
+  LoadEnvironments.srv
   LoadMap.srv
   SaveMap.srv
 )
@@ -28,7 +31,7 @@ generate_messages(
 
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES procedures_msgs
+#  LIBRARIES
  CATKIN_DEPENDS message_runtime std_msgs
 #  DEPENDS system_lib
 )
