@@ -16,6 +16,7 @@ add_service_files(
   LoadEnvironments.srv
   LoadMap.srv
   SaveMap.srv
+  DumpMap.srv
 )
 
 ## Generate actions in the 'action' folder
