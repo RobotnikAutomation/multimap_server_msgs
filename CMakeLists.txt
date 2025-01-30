@@ -16,6 +16,7 @@ add_service_files(
   LoadEnvironments.srv
   LoadMap.srv
   SaveMap.srv
+  SaveMapColour.srv
   DumpMap.srv
 )
 
